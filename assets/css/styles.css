@@ -201,7 +201,7 @@ nav a:hover {
     grid-template-columns: 1fr 1.2fr;
     min-height: calc(100vh - 70px); 
     background-color: var(--pastel-yellow);
-    background-image: url('./assets/imgs/checkred-pattern.webp');
+    background-image: url('../imgs/checkred-pattern.webp');
     background-repeat: repeat;
     gap: 40px;
     padding: 40px 8%; 
@@ -214,7 +214,7 @@ nav a:hover {
 }
 
 .hero-image {
-    background: url('./assets/imgs/isa-perfil.jpeg') no-repeat center center;
+    background: url('../imgs/isa-perfil.jpeg') no-repeat center center;
     background-size: cover;
     border-radius: 40px;
     /* Usamos border em vez de sombras complexas para evitar o "vazamento" no mobile */
