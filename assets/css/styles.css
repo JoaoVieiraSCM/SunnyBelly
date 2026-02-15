@@ -670,6 +670,14 @@ nav a:hover {
     border-color: var(--pastel-pink);
 }
 
+.portfolio-item:nth-child(9):hover {
+    border-color: var(--pastel-yellow);
+}
+
+.portfolio-item:nth-child(10):hover {
+    border-color: var(--pastel-blue);
+}
+
 .portfolio-item:hover img {
     transform: scale(1.1);
 }
@@ -702,6 +710,13 @@ nav a:hover {
     transform: translateY(20px);
     transition: transform 0.4s ease;
     pointer-events: none;
+    text-align: center;
+    padding: 0 15px;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    line-height: 1.4;
 }
 
 .portfolio-item:hover .portfolio-overlay span {
@@ -1139,6 +1154,11 @@ footer a:hover {
         border-width: 3px;
     }
 
+    .exp-img {
+        transform: scale(1.5) !important;
+        filter: grayscale(0%) !important; /* Remove grayscale no hover para colorir o ícone */
+    }
+
     .exp-card > div:last-child {
         padding: 45px 15px 25px; /* Padding lateral reduzido para o texto "respirar" */
         width: 100%;
@@ -1286,6 +1306,14 @@ footer a:hover {
         border-color: var(--pastel-pink);
     }
 
+    .portfolio-item:nth-child(9) {
+        border-color: var(--pastel-yellow);
+    }
+
+    .portfolio-item:nth-child(10) {
+        border-color: var(--pastel-blue);
+    }
+
     .portfolio-item:hover {
         transform: none;
         box-shadow: 0 4px 12px rgba(0,0,0,0.06);
@@ -1326,6 +1354,8 @@ footer a:hover {
     
     .portfolio-overlay span {
         transform: translateY(0);
+        font-size: 1rem;
+        padding: 0 10px;
     }
 
     /* Lightbox Mobile */
